@@ -10,14 +10,14 @@
 
 - pyttsx3
 
-
+&nbsp;
 
 ## Environment
 
 - Python 3.6.7
 - MacOS（以下环境配置方式均基于Mac系统，其他系统的配置方式可能会有一些不同）
 
-
+&nbsp;
 
 ## Speech to Text
 
@@ -61,6 +61,8 @@ speech_to_text_baidu(if_microphone = True)
 
 
 
+&nbsp;
+
 ### 科大讯飞
 
 在 https://www.xfyun.cn/services/voicedictation 申请API。
@@ -95,7 +97,7 @@ speech_to_text_ifly(if_microphone = True)
 
 
 
-
+&nbsp;
 
 ### SpeechRecognition
 
@@ -103,7 +105,7 @@ speech_to_text_ifly(if_microphone = True)
 
 源码：https://github.com/Uberi/speech_recognition
 
-
+&nbsp;
 
 #### Configuration
 
@@ -169,11 +171,9 @@ python -c "import speech_recognition as sr, os.path as p; print(p.dirname(sr.__f
 
 然后下载并解压 [Mandarin Chinese](https://drive.google.com/open?id=0Bw_EqP-hnaFNSWdqdm5maWZtTGc) 语言包，把 `zh-CN` 文件夹放入 `'/path/pocketsphinx-data'` 中
 
-
+&nbsp;
 
 #### Usage
-
-##### 语音转文字
 
 ```python
 from Speech_and_Text import speech_to_text_cmu
@@ -184,6 +184,8 @@ speech_to_text_cmu(if_microphone = True)
 ```
 
 
+
+&nbsp;
 
 ## Text to Speech
 
